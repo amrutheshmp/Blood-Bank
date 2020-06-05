@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wall1"
+    tools:context=".Activities.LoginActivity">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:src="@drawable/doc"/>
+
+        <EditText
+            android:id="@+id/number"
+            android:hint="Phone Number"
+            android:textSize="30sp"
+            android:layout_marginTop="40dp"
+            android:layout_width="300dp"
+            android:layout_gravity="center"
+            android:inputType="number"
+            android:layout_height="wrap_content">
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/password"
+            android:hint="Password"
+            android:textSize="30sp"
+            android:layout_marginTop="40dp"
+            android:inputType="textPassword"
+            android:layout_width="300dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content">
+
+        </EditText>
+
+        <Button
+            android:id="@+id/submit_button"
+            android:layout_width="144dp"
+            android:layout_height="58dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:background="#19E6C7"
+            android:text="LOGIN"
+            android:textSize="20dp"
+            android:textColor="#05457E "
+            android:textStyle="bold">
+
+        </Button>
+
+        <ImageView
+            android:layout_width="143dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/beats" />
+
+        <TextView
+            android:id="@+id/signup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sign_up"
+            android:layout_marginTop="20dp"
+            android:textColor="#0CBBAD"
+            android:textSize="20sp"
+            android:layout_gravity="center">
+
+        </TextView>
+
+
+
+    </LinearLayout>
+
+</ScrollView>
